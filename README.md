@@ -23,10 +23,12 @@ The n-bit UDL counter features the following input and output signals:
 <h3><b>4.1. Inputs:</b></h3>
 
 <ul>
-<li><b>Clock (CLK):</b> A periodic signal used to synchronize the counter's operations.</li>
-<li><b>Up/Down (UD):</b> A control signal determining the counting direction (Up or Down).</li>
-<li><b>Load (LD):</b> A control signal to activate the Load mode.</li>
-<li><b>Load Value (LD_VAL):</b> The n-bit value to be loaded when the Load mode is enabled.</li>
+<li><b>Clock (clk):</b> A periodic signal used to synchronize the counter's operations.</li>
+<li><b>Up/Down (up):</b> A control signal determining the counting direction (Up or Down).</li>
+<li><b>Load (load):</b> A control signal to activate the Load mode.</li>
+<li><b>Load Value (L):</b> The n-bit value to be loaded when the Load mode is enabled.</li>
+<li><b>Enable signal (enable):</b> A sync control signal to freeze the counter.</li>
+<li><b>Reset (reset_n):</b> A async control signal to make the counts = zero.</li>
 </ul>
 
 <h3><b>4.2. Outputs:</b></h3>
