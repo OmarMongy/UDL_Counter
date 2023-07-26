@@ -1,4 +1,4 @@
-<big>Title: Formal Description of an n-bit Up-Down-Load (UDL) Counter</big>
+<big>##Title: Formal Description of an n-bit Up-Down-Load (UDL) Counter</big>
 
 <big>Introduction:</big>
 An n-bit Up-Down-Load (UDL) counter is a digital electronic circuit designed to facilitate bidirectional counting and loading a specific value into the counter. This formal description outlines the comprehensive functionality and behavior of an n-bit UDL counter capable of counting up or down and loading a predefined value. The counter size is specified as n bits, providing a counting range of 2^n unique states.
