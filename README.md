@@ -33,15 +33,9 @@ The n-bit UDL counter features the following input and output signals:
 
 <ul>
 <li><b>Counter Value (COUNT[n-1:0]):</b> The n-bit output representing the current count state of the UDL counter.</li>
-<li><b>Carry Out (COUT):</b> An output signal that indicates an overflow or underflow during counting.</li>
-<li><b>Load Ready (LD_READY):</b> An output signal indicating that the counter is ready to receive the Load Value.</li>
-</ul>
-
-<h2><b>State Transition Diagram:</b></h2>
-The UDL counter can be visually represented by a state transition diagram, illustrating the transitions between different modes based on control signals and events.
 
 <h2><b>Implementation:</b></h2>
-The n-bit UDL counter can be realized using standard digital components, such as D flip-flops, multiplexers, and combinational logic circuits. The specific implementation may vary depending on design requirements and the technology employed.
+The n-bit UDL counter can be realized using standard digital components, such as T flip-flops, multiplexers, and combinational logic circuits. The specific implementation may vary depending on design requirements and the technology employed.
 
 <h2><b>Conclusion:</b></h2>
 The formal description of the n-bit Up-Down-Load (UDL) counter provides a clear and comprehensive understanding of its functionalities and operating modes. With this counter, users can perform bidirectional counting or load specific values, facilitating various counting applications in digital systems.
