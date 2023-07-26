@@ -8,7 +8,7 @@ input load,
 input [N-1:0] L,
 output [N-1:0]Q
 );
-reg [N-1:0]Q_reg, Q_next;        // don't forget to write [N-1:0]
+reg [N-1:0]Q_reg, Q_next;        
 
 always @(posedge clk, negedge reset_n)
 begin
